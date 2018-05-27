@@ -48,8 +48,12 @@ table {
 	border-spacing: 0;
 }
 
-
+body {
+	font-family: 'Lato', sans-serif;
+}
 .container {
+	padding: 35px;
+	line-height: 1.2;
 	display: grid;
     max-width: 1300px;
     margin: 0 auto;
@@ -62,8 +66,8 @@ table {
 	grid-area: header;
 	display: grid;
 	grid-template-columns: 50% 50%;
-
-	border: 1px solid red;
+	border-bottom: 1px solid #d58900;
+	padding-bottom: 35px;
 }
 .avatar {
 	background-color: #ccc;
@@ -76,9 +80,10 @@ table {
 .personal-primary {
 	display: inline-block;
 	vertical-align: top;
+	margin-left: 33px;
 }
 .personal-secondary {
-	text-align: right
+	text-align: right;
 }
 
 .content {
@@ -88,9 +93,38 @@ table {
 }
 .label {
 	grid-column: 1/2;
+	font-size: 20px;
+	color: #d58900;
+	font-style: italic;
 }
 .description {
 	grid-column: 2/2;
+	font-size: 18px;
+}
+.description h4{
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+.description p{
+	font-size: 14px;
+	font-style: italic;
+	padding-bottom: 13px;
+}
+.description div {
+	padding-bottom: 20px;
+}
+
+.header div{
+	font-size: 16px;
+}
+#name {
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 14px;
+}
+.row {
+	padding: 20px 0 20px;
+	border-bottom: 1px solid #dedede;
 }
 
 
