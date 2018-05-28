@@ -1,0 +1,60 @@
+{
+	"name": "Arya C",
+	"dob": "02 Nov 1992",
+	"mobNo": "123-678-345",
+	"email": "arya.chittappurath@gmail.com",
+	"address": {
+		"houseName": "SNN",
+		"neighborHood": "Neeladiri road",
+		"streetName": "Electronic city",
+		"city": "Bangalore",
+		"pincode": "123100"
+	},
+	"careerSummary": ["2 years of experience as an Android developer and Frontend developer", 
+					"Expertise in web applications and android apps for both TV and mobile",
+					"Expertise in understanding the business requirements",
+					"Recipient of Google India Challenge Scholarship for the Front-End Web Developer track"],
+
+	"keySkills": {
+		"language": ["HTML", "CSS", "Javascript", "jQuery", "BootStrap"],
+		"androidVersion": ["Android 4.4 (Kitkat) to 7 (Nougat), Core Java"],
+		"database": ["SQLite"],
+		"devProcess": ["Agile"],
+		"sourceControl": ["GIT","Perforce"],
+		"tools": ["JIRA","Tera Term","WinScp"]
+	},
+	"experience":[
+		{ 
+			"companyName": "HCL Technologies",
+			"date": "November 2015 - March 2018",
+			"projects":[ 
+				{
+			 		"proTitle": "Picture Settings (Digital TV)",
+			 		"projDesc": "The system settings part of a smart android TV which deals with various picture and display attributes like Brightness, Color, Picture mode, etc. It is an application that communicates with the middleware of the system framework.Recently this application was upgraded to Android N. ",
+			 		"contributions": ["Development and maintenance","Junit Test case", 
+			 		"Support and fix the issues raised by on-site team and clients"]
+
+		 		},
+			    {
+			 		"proTitle": "Country Settings (Digital TV)",
+			 		"projDesc": "The application that deals with country and region related features of the system settings of a smart android TV. It involves enabling and disabling certain features of the TV based on the region it is used.",
+			 		"contributions": ["Development and maintenance","Junit Test case"]
+
+		 		}
+		 	]
+		},
+		{	"companyName": "Stealth startup",
+			"date": "August 2018 - December 2018",
+			"projects":[
+				{
+					"proTitle": "Administration App",
+					"projDesc": "Develop a web app to perform provisioning and admin tasks for a cloud application. This app is used as an internal tool by the support team of an online project management product. Was developed using HTML, CSS and JS.",
+					"contributions": ["Design and development of the app"]
+				}
+			]
+		}
+
+	]
+
+	
+}
