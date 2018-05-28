@@ -37,9 +37,9 @@ function primaryInfo(response) {
 
 function secondaryInfo(response) {
 	var details = "<div>"+
-					"<div>" + "<span>" +"Mob:" + "</span>" + response.mobNo + "</div>" + 
-					"<div>" + "<span>" +"Emai:" + "</span>" + response.email + "</div>" +
-					"<div>" + "<span>" +"DOB:" + "</span>" + response.dob + "</div>" +
+					"<div>" + "<span> <i class = 'material-icons phone-img'>phone</i> </span>" + response.mobNo + "</div>" + 
+					"<div>" + "<span> <i class = 'material-icons email-img'>email</i> </span>" + response.email + "</div>" +
+					"<div>" + "<span> <i class = 'material-icons dob-img'>today</i> </span>" + response.dob + "</div>" +
 				  "</div>";
 
 	var secondaryInfoEl = document.querySelector('.personal-secondary');
